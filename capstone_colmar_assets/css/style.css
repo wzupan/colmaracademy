@@ -5,6 +5,7 @@
 /*Header*/
 
 header {
+  margin-top: 0px;
   height: 4rem;
 }
 nav {
@@ -42,4 +43,53 @@ ul li {
   display: none;
 }
 
+/*Body*/
+
+.page-container div, .page-container section {
+  border: 1px solid black;
+  min-height: 200px;
+}
+
+.page-container {
+
+}
+
+.fc {
+  display: flex;
+  flex-direction: column;
+}
+.fr {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.rc-item {
+  width: 100%;
+}
+
+.learning-item {
+  width: 33.33%;
+}
+
 /*Banner*/
+
+@media only screen and (max-width: 480px) {
+  .banner, .learning > .fr {
+    flex-direction: column;
+  }
+  .left, .right, .learning-item {
+      width: 100%;
+  }
+  .sub-banner > .left, .thesis > .right {
+    display: none;
+  }
+}
