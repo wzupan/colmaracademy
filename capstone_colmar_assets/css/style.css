@@ -82,6 +82,25 @@ ul li {
 
 /*Banner*/
 
+.banner img {
+  height: 30rem;
+  padding: 2rem 1.5rem;
+  background-color: rgb(198, 200, 229)
+}
+
+.banner > .fc.right {
+  justify-content: center;
+  padding-right: 8rem;
+  background-color: rgb(198, 200, 229);
+}
+
+.start-button {
+  text-align: center;
+  margin-right: 4rem;
+  padding: .5rem 0;
+  background-color: rgb(110, 111, 127)
+}
+
 @media only screen and (max-width: 480px) {
   .banner, .learning > .fr {
     flex-direction: column;
