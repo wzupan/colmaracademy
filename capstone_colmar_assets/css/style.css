@@ -47,7 +47,6 @@ ul li {
 
 .page-container div, .page-container section {
   border: 1px solid black;
-  min-height: 200px;
 }
 
 .page-container {
@@ -89,17 +88,18 @@ ul li {
 /*Banner*/
 .banner {
   background-color: rgb(198, 200, 229);
+  padding: 1.5rem;
 }
 
 .banner img {
   height: 30rem;
-  padding: 2rem 1.5rem;
-  background-color: rgb(198, 200, 229)
+  background-color: rgb(198, 200, 229);
 }
 
 .banner > .fc.right {
   justify-content: center;
-  width: 30%;
+  width: 40%;
+  padding: 1.5rem;
   text-align: left;
 }
 
@@ -156,7 +156,17 @@ ul li {
   padding: .5rem auto;
 }
 
+.rc-item.guest {
+  background-color: rgb(198, 200, 229);
+}
+
 /*Learning*/
+
+.section-header {
+  width: 100%;
+  padding: 2rem auto;
+  text-align: center;
+}
 
 .learning-item img {
   width: 100%;
@@ -174,4 +184,11 @@ ul li {
 
 .learning-item-text > h4, p {
   padding: 0 .5rem;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
 }
