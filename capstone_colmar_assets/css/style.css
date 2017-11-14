@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /*Header*/
 
 header {
@@ -44,10 +48,10 @@ ul li {
 }
 
 /*Body*/
-
+./*
 .page-container div, .page-container section {
   border: 1px solid black;
-}
+}*/
 
 .page-container {
 
@@ -72,13 +76,7 @@ ul li {
 }
 
 .rc-item {
-  display: flex;
-  width: 100%;
-  height: 10rem;
-  align-content: center;
   align-items: center;
-  justify-content: center;
-  padding: 1rem;
 }
 
 .learning-item {
@@ -92,7 +90,7 @@ ul li {
 }
 
 .banner img {
-  height: 30rem;
+  width: 100%;
   background-color: rgb(198, 200, 229);
 }
 
@@ -134,30 +132,38 @@ ul li {
 }
 
 .sub-banner > .left > img {
-  height: 20rem;
-  overflow: hidden;
+  width: 100%;
 }
 
 .rc-item > .izquierda {
+  height: auto;
   width: 35%;
 }
 
-.rc-item > .izquierda > img {
+.rc-item > .izquierda img {
   width: 100%;
+  margin-left: 1rem;
   height: auto;
 }
 
 .rc-item > .derecha {
-  justify-content: flex-start;
   width: 65%;
-}
-
-.rc-item > .derecha > h4, p, span {
-  padding: .5rem auto;
 }
 
 .rc-item.guest {
   background-color: rgb(198, 200, 229);
+}
+
+.derecha > h4, .derecha > p {
+  margin: 0rem;
+  padding: .5rem 2rem;
+}
+
+.sub-banner > h3 {
+  padding: 1.5rem 0rem;
+}
+.emanuel {
+  padding: 2rem 0rem;
 }
 
 /*Learning*/
@@ -174,21 +180,28 @@ ul li {
 }
 
 .learning-item {
-  align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 .learning-item-text {
   padding: 1rem;
 }
 
-.learning-item-text > h4, p {
-  padding: 0 .5rem;
+/*Thesis*/
+
+.thesis > video {
+  height: 33vw;
+}
+
+.thesis .left > h4 {
+  padding: 1.5rem 0rem;
+  margin: 0rem;
 }
 
 /*Footer*/
 
 footer {
+  padding: 1rem 1.5rem 3rem 1.5rem;
   display: flex;
   justify-content: space-between;
 }
