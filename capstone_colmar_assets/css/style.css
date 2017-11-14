@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir';
+  color: #3c3c3c;
 }
 
 /*Header*/
@@ -84,8 +85,9 @@ ul li {
 }
 
 /*Banner*/
+
 .banner {
-  background-color: rgb(198, 200, 229);
+  background-color: #d1d1d1;
   padding: 1.5rem;
 }
 
@@ -99,14 +101,28 @@ ul li {
   width: 40%;
   padding: 1.5rem;
   text-align: left;
+  padding-right: 4rem;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #3c3c3c;
+  line-height: 3.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.banner h4 {
+  font-size: 1.1rem;
+  font-weight: 400rem;
 }
 
 .start-button {
   color: white;
   text-align: center;
-  margin-right: 4rem;
   padding: .5rem 0;
-  background-color: rgb(110, 111, 127);
+  background-color: #3c3c3c;
 }
 
 @media only screen and (max-width: 480px) {
@@ -135,6 +151,21 @@ ul li {
   width: 100%;
 }
 
+.sub-banner > .left > h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.sub-banner > .left > p {
+  font-size: .85rem;
+}
+
+#emanuel {
+  font-size: .85rem;
+  font-weight: 700;
+}
+
 .rc-item > .izquierda {
   height: auto;
   width: 35%;
@@ -151,12 +182,21 @@ ul li {
 }
 
 .rc-item.guest {
-  background-color: rgb(198, 200, 229);
+  background-color: #d1d1d1;
+}
+
+.derecha > h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.derecha > p {
+  font-size: .85rem;
 }
 
 .derecha > h4, .derecha > p {
   margin: 0rem;
-  padding: .5rem 2rem;
+  padding: .15rem 2rem;
 }
 
 .sub-banner > h3 {
@@ -166,12 +206,28 @@ ul li {
   padding: 2rem 0rem;
 }
 
-/*Learning*/
+#read-more {
+  color: #719AE5;
+  font-weight: 500;
+}
+
+/*Learning Section Header*/
 
 .section-header {
   width: 100%;
   padding: 2rem auto;
   text-align: center;
+}
+
+.section-header > h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/*Learning*/
+
+.learning {
+  padding: 0 4.5rem;
 }
 
 .learning-item img {
