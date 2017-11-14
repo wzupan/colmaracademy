@@ -173,7 +173,7 @@ ul li {
 
 .rc-item > .izquierda img {
   width: 100%;
-  margin-left: 1rem;
+  margin: 1rem;
   height: auto;
 }
 
@@ -217,6 +217,7 @@ ul li {
   width: 100%;
   padding: 2rem auto;
   text-align: center;
+  background-color: #eaeaea;
 }
 
 .section-header > h2 {
@@ -227,7 +228,8 @@ ul li {
 /*Learning*/
 
 .learning {
-  padding: 0 4.5rem;
+  padding: 0 3.5rem;
+  background-color: #eaeaea;
 }
 
 .learning-item img {
@@ -237,21 +239,54 @@ ul li {
 
 .learning-item {
   justify-content: start;
+  margin: 2rem 1rem;
+  background-color: white;
 }
 
 .learning-item-text {
   padding: 1rem;
 }
 
+.learning-item-text > h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.learning-item-text > p {
+  font-size: .85rem;
+  font-weight: 200;
+}
+
+/*Thesis Header*/
+
+#thesis {
+  background-color: white;
+}
+
 /*Thesis*/
 
-.thesis > video {
+.thesis video {
   height: 33vw;
 }
 
+.thesis > .left {
+  padding-left: 1.5rem;
+}
+
 .thesis .left > h4 {
-  padding: 1.5rem 0rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.5rem 0 .5rem 0;
   margin: 0rem;
+}
+
+.thesis .left > p {
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+#fisma {
+  background-color: #eaeaea;
 }
 
 /*Footer*/
@@ -260,4 +295,8 @@ footer {
   padding: 1rem 1.5rem 3rem 1.5rem;
   display: flex;
   justify-content: space-between;
+}
+
+#terms {
+  margin-right: 1.5rem;
 }
